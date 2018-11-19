@@ -125,7 +125,7 @@
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image22.png">
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image23.png">
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image24.jpeg">
-<meta property="og:updated_time" content="2018-11-19T15:05:22.397Z">
+<meta property="og:updated_time" content="2018-11-19T15:06:58.682Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="湖湘杯 2018 Writeup --Wa1erDrop">
 <meta name="twitter:description" content="湖湘杯 2018 Writeup">
@@ -355,7 +355,7 @@
 
       
         <p>湖湘杯 2018 Writeup<br><a id="more"></a></p>
-<h2 id="1-题目名-Code-check"><a href="#1-题目名-Code-check" class="headerlink" title="1.  题目名 Code check"></a>1.  题目名 Code check</h2><p> 解题思路、相关代码和 Flag 截图：</p>
+<h2 id="题目名-Code-check"><a href="#题目名-Code-check" class="headerlink" title="题目名 Code check"></a>题目名 Code check</h2><p> 解题思路、相关代码和 Flag 截图：</p>
 <p> 扫目录发现了 /news 下载源码</p>
 <p> <img src="/images/pics/media/image1.png" alt=""></p>
 <p> 根据源码构造加密程序</p>
@@ -365,7 +365,7 @@
 <p> (3/**/union/**/select/**/1,GROUP_CONCAT(id),GROUP_CONCAT(title),4/**/from/**/notice2hxb2018)</p>
 <p> RUV4SUlhMG4vUFlITDVQdS9xMndUMlI0V2RwYlZkYVcvd3lLL0d5M2lENEFuNzFvVGNWTWRBTXB2ay8vVk9JbVBjZUxWWUhiZTlzMEtXVitnam5JcForT0xTZ2VmRGpKc095dmduUmFPeVFYMGw3VkMrbFpiTUxrMEZUczhyeXQ=</p>
 <p> <img src="/images/pics/media/image3.png" alt=""></p>
-<h2 id="2-题目名-Flow"><a href="#2-题目名-Flow" class="headerlink" title="2.  题目名 Flow"></a>2.  题目名 Flow</h2><p> 解题思路、相关代码和 Flag 截图：</p>
+<h2 id="题目名-Flow"><a href="#题目名-Flow" class="headerlink" title="题目名 Flow"></a>题目名 Flow</h2><p> 解题思路、相关代码和 Flag 截图：</p>
 <p> Wireshark 打开发现为 802.11</p>
 <p> 弱密码爆破</p>
 <p> <img src="/images/pics/media/image4.png" alt=""></p>
@@ -374,19 +374,18 @@
 <p> <img src="/images/pics/media/image6.png" alt=""></p>
 <p> 查找 flag</p>
 <p> <img src="/images/pics/media/image7.png" alt=""></p>
-<h2 id="3-题目名-ReadFile"><a href="#3-题目名-ReadFile" class="headerlink" title="3. 题目名 ReadFile"></a>3. 题目名 ReadFile</h2><p>解题思路、相关代码和 Flag 截图：</p>
+<h2 id="题目名-ReadFile"><a href="#题目名-ReadFile" class="headerlink" title="题目名 ReadFile"></a>题目名 ReadFile</h2><p>解题思路、相关代码和 Flag 截图：</p>
 <p><img src="/images/pics/media/image8.png" alt=""></p>
-<h2 id="4-题目名：My-Note"><a href="#4-题目名：My-Note" class="headerlink" title="4. 题目名：My Note"></a>4. 题目名：My Note</h2><p>解题思路、相关代码和 Flag 截图：</p>
+<h2 id="题目名：My-Note"><a href="#题目名：My-Note" class="headerlink" title="题目名：My Note"></a>题目名：My Note</h2><p>解题思路、相关代码和 Flag 截图：</p>
 <p>文件上传，修改文件类型</p>
 <p><img src="/images/pics/media/image9.png" alt=""></p>
 <p>在目录中找到该文件，直接读取 flag</p>
 <p><img src="/images/pics/media/image10.png" alt=""></p>
-<h2 id="5-题目名称-XmeO"><a href="#5-题目名称-XmeO" class="headerlink" title="5. 题目名称 XmeO"></a>5. 题目名称 XmeO</h2><p>解题思路、相关代码和 Flag 截图：</p>
+<h2 id="题目名称-XmeO"><a href="#题目名称-XmeO" class="headerlink" title="题目名称 XmeO"></a>题目名称 XmeO</h2><p>解题思路、相关代码和 Flag 截图：</p>
 <p>易知为模板注入</p>
 <p>Payload:<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;&#123;<span class="string">''</span>.__class__.__mro__[<span class="number">2</span>].__subclasses__()[<span class="number">40</span>](<span class="string">'/home/XmeO/auto.js'</span>).read()&#125;&#125;</span><br></pre></td></tr></table></figure></p>
 <p><img src="/images/pics/media/image11.png" alt=""></p>
-<p>##6. 题目名称 highwayhash64</p>
-<p>第一眼以为是 md5，仔细一看是哈希（明明题目说了）</p>
+<h2 id="题目名称-highwayhash64"><a href="#题目名称-highwayhash64" class="headerlink" title="题目名称 highwayhash64"></a>题目名称 highwayhash64</h2><p>第一眼以为是 md5，仔细一看是哈希（明明题目说了）</p>
 <p>highwayhash64 在 GitHub 上搜了一下<br><a href="https://github.com/google/highwayhash" target="_blank" rel="noopener">[https://github.com/google/highwayhash]{.underline}</a></p>
 <p>找到了源码，再仔细对照算法，只有一个函数魔改了，其他都一样。</p>
 <p>加密过程是：先对输入的长度进行校验，然后对数字部分进行校验。</p>
@@ -396,20 +395,20 @@
 <p>用的是 GitHub 上自带的 test 函数，稍微改了改</p>
 <p>爆破的速度还是很快的，队员 3 个人各跑了一下确定了区间，最后得解。</p>
 <p><img src="/images/pics/media/image14.png" alt="">{width=”3.5308081802274716in”<br>height=”0.7707370953630797in”}</p>
-<h2 id="7-题目名称-regex-format"><a href="#7-题目名称-regex-format" class="headerlink" title="7. 题目名称 regex format"></a>7. 题目名称 regex format</h2><p>只要正确理解了：和、$那段解析判断就非常简单了</p>
+<h2 id="题目名称-regex-format"><a href="#题目名称-regex-format" class="headerlink" title="题目名称 regex format"></a>题目名称 regex format</h2><p>只要正确理解了：和、$那段解析判断就非常简单了</p>
 <p>简单模拟了一个正则表达式 : 和、$ 中的内容是可以出现的内容</p>
 <p>例如 :a$+ 就可以出现 1000 次 a 这样</p>
 <p>而且题目关了 NX</p>
 <p> 因此可以栈溢出，控制程序跳到 bss 段，然后在 bss 段填 shellcode ，get<br> shell<img src="/images/pics/media/image15.png" alt=""></p>
 <p><img src="/images/pics/media/image16.png" alt=""></p>
-<h2 id="8-题目名称：Disk"><a href="#8-题目名称：Disk" class="headerlink" title="8. 题目名称：Disk"></a>8. 题目名称：Disk</h2><p> 这题有点脑洞</p>
+<h2 id="题目名称：Disk"><a href="#题目名称：Disk" class="headerlink" title="题目名称：Disk"></a>题目名称：Disk</h2><p> 这题有点脑洞</p>
 <p> 用 winhex 可以打开文件</p>
 <p> 发现有 4 个 flagx.txt 文件</p>
 <p> 对比发现后面有一段东西是不同的，但是都是 01 的，于是猜是 flag</p>
 <p> <img src="/images/pics/media/image17.png" alt=""></p>
 <p> <img src="/images/pics/media/image18.png" alt=""><br> 脚本如下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">flag=&apos;0110011001101100011000010110011101&apos;</span><br><span class="line"></span><br><span class="line">flag+=&apos;1110110011010001000100010100110101&apos;</span><br><span class="line"></span><br><span class="line">flag+=&apos;1111001100010110111001011111010001&apos;</span><br><span class="line"></span><br><span class="line">flag+=&apos;0000110001011100110110101101111101&apos;</span><br><span class="line"></span><br><span class="line">s=&apos;&apos;</span><br><span class="line"></span><br><span class="line">for i in range(0,32,8):</span><br><span class="line"></span><br><span class="line">s+=chr(int(flag[i:i+8],2))</span><br><span class="line"></span><br><span class="line">for i in range(32,len(flag),8):</span><br><span class="line"></span><br><span class="line">print(s,hex(int(flag[i:i+8],2)))</span><br><span class="line"></span><br><span class="line">s+=chr(int(flag[i:i+8],2))</span><br><span class="line"></span><br><span class="line">print(s)</span><br></pre></td></tr></table></figure>
-<h2 id="9-题目名称：Common-Crypto"><a href="#9-题目名称：Common-Crypto" class="headerlink" title="9. 题目名称：Common Crypto"></a>9. 题目名称：Common Crypto</h2><p> 逆向一下程序，发现是 AES 加密</p>
+<h2 id="题目名称：Common-Crypto"><a href="#题目名称：Common-Crypto" class="headerlink" title="题目名称：Common Crypto"></a>题目名称：Common Crypto</h2><p> 逆向一下程序，发现是 AES 加密</p>
 <p> <img src="/images/pics/media/image19.png" alt=""></p>
 <p> 看到有一段赋值的，于是就猜那个是 key</p>
 <p> 拿去网上的解密网站</p>
@@ -417,15 +416,14 @@
 <p> 解出前 16 位 flag</p>
 <p> 后面的就直接是可见字符</p>
 <p> <img src="/images/pics/media/image21.png" alt=""></p>
-<p>##10. 题目名称 replace</p>
-<p> 这题比较简单</p>
+<h2 id="题目名称-replace"><a href="#题目名称-replace" class="headerlink" title="题目名称 replace"></a>题目名称 replace</h2><p> 这题比较简单</p>
 <p> Upx 脱壳</p>
 <p> <img src="/images/pics/media/image22.png" alt=""></p>
 <p> 然后之后就是简单的替换</p>
 <p> 脚本如下</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line">a=&apos;2a49f69c38395cde96d6de96d6f4e025484954d6195448def6e2dad67786e21d5adae6&apos;</span><br><span class="line"></span><br><span class="line">data = [0x63, 0x7C, 0x77, 0x7B, 0xF2, 0x6B, 0x6F, 0xC5, 0x30, 0x01,</span><br><span class="line"></span><br><span class="line">0x67, 0x2B, 0xFE, 0xD7, 0xAB, 0x76, 0xCA, 0x82, 0xC9, 0x7D,</span><br><span class="line"></span><br><span class="line">0xFA, 0x59, 0x47, 0xF0, 0xAD, 0xD4, 0xA2, 0xAF, 0x9C, 0xA4,</span><br><span class="line"></span><br><span class="line">0x72, 0xC0, 0xB7, 0xFD, 0x93, 0x26, 0x36, 0x3F, 0xF7, 0xCC,</span><br><span class="line"></span><br><span class="line">0x34, 0xA5, 0xE5, 0xF1, 0x71, 0xD8, 0x31, 0x15, 0x04, 0xC7,</span><br><span class="line"></span><br><span class="line">0x23, 0xC3, 0x18, 0x96, 0x05, 0x9A, 0x07, 0x12, 0x80, 0xE2,</span><br><span class="line"></span><br><span class="line">0xEB, 0x27, 0xB2, 0x75, 0x09, 0x83, 0x2C, 0x1A, 0x1B, 0x6E,</span><br><span class="line"></span><br><span class="line">0x5A, 0xA0, 0x52, 0x3B, 0xD6, 0xB3, 0x29, 0xE3, 0x2F, 0x84,</span><br><span class="line"></span><br><span class="line">0x53, 0xD1, 0x00, 0xED, 0x20, 0xFC, 0xB1, 0x5B, 0x6A, 0xCB,</span><br><span class="line"></span><br><span class="line">0xBE, 0x39, 0x4A, 0x4C, 0x58, 0xCF, 0xD0, 0xEF, 0xAA, 0xFB,</span><br><span class="line"></span><br><span class="line">0x43, 0x4D, 0x33, 0x85, 0x45, 0xF9, 0x02, 0x7F, 0x50, 0x3C,</span><br><span class="line"></span><br><span class="line">0x9F, 0xA8, 0x51, 0xA3, 0x40, 0x8F, 0x92, 0x9D, 0x38, 0xF5,</span><br><span class="line"></span><br><span class="line">0xBC, 0xB6, 0xDA, 0x21, 0x10, 0xFF, 0xF3, 0xD2, 0xCD, 0x0C,</span><br><span class="line"></span><br><span class="line">0x13, 0xEC, 0x5F, 0x97, 0x44, 0x17, 0xC4, 0xA7, 0x7E, 0x3D,</span><br><span class="line"></span><br><span class="line">0x64, 0x5D, 0x19, 0x73, 0x60, 0x81, 0x4F, 0xDC, 0x22, 0x2A,</span><br><span class="line"></span><br><span class="line">0x90, 0x88, 0x46, 0xEE, 0xB8, 0x14, 0xDE, 0x5E, 0x0B, 0xDB,</span><br><span class="line"></span><br><span class="line">0xE0, 0x32, 0x3A, 0x0A, 0x49, 0x06, 0x24, 0x5C, 0xC2, 0xD3,</span><br><span class="line"></span><br><span class="line">0xAC, 0x62, 0x91, 0x95, 0xE4, 0x79, 0xE7, 0xC8, 0x37, 0x6D,</span><br><span class="line"></span><br><span class="line">0x8D, 0xD5, 0x4E, 0xA9, 0x6C, 0x56, 0xF4, 0xEA, 0x65, 0x7A,</span><br><span class="line"></span><br><span class="line">0xAE, 0x08, 0xBA, 0x78, 0x25, 0x2E, 0x1C, 0xA6, 0xB4, 0xC6,</span><br><span class="line"></span><br><span class="line">0xE8, 0xDD, 0x74, 0x1F, 0x4B, 0xBD, 0x8B, 0x8A, 0x70, 0x3E,</span><br><span class="line"></span><br><span class="line">0xB5, 0x66, 0x48, 0x03, 0xF6, 0x0E, 0x61, 0x35, 0x57, 0xB9,</span><br><span class="line"></span><br><span class="line">0x86, 0xC1, 0x1D, 0x9E, 0xE1, 0xF8, 0x98, 0x11, 0x69, 0xD9,</span><br><span class="line"></span><br><span class="line">0x8E, 0x94, 0x9B, 0x1E, 0x87, 0xE9, 0xCE, 0x55, 0x28, 0xDF,</span><br><span class="line"></span><br><span class="line">0x8C, 0xA1, 0x89, 0x0D, 0xBF, 0xE6, 0x42, 0x68, 0x41, 0x99,</span><br><span class="line"></span><br><span class="line">0x2D, 0x0F, 0xB0, 0x54, 0xBB, 0x16]</span><br><span class="line"></span><br><span class="line">flag = &apos;&apos;</span><br><span class="line"></span><br><span class="line">for i in range(0,len(a),2):</span><br><span class="line"></span><br><span class="line">t = int(a[i:i+2],16)^0x19</span><br><span class="line"></span><br><span class="line">idx = data.index(t)</span><br><span class="line"></span><br><span class="line">flag+=chr(idx)</span><br><span class="line"></span><br><span class="line">print(idx)</span><br><span class="line"></span><br><span class="line">print(repr(flag))</span><br></pre></td></tr></table></figure>
 <p> <img src="/images/pics/media/image23.png" alt=""></p>
-<h2 id="11-题目名称：welcome"><a href="#11-题目名称：welcome" class="headerlink" title="11. 题目名称：welcome"></a>11. 题目名称：welcome</h2><p>差点忘了写这题题解。关注公众号即可</p>
+<h2 id="题目名称：welcome"><a href="#题目名称：welcome" class="headerlink" title="题目名称：welcome"></a>题目名称：welcome</h2><p>差点忘了写这题题解。关注公众号即可</p>
 <p><img src="/images/pics/media/image24.jpeg" alt=""></p>
 
       
@@ -579,7 +577,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-题目名-Code-check"><span class="nav-number">1.</span> <span class="nav-text">1.  题目名 Code check</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-题目名-Flow"><span class="nav-number">2.</span> <span class="nav-text">2.  题目名 Flow</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-题目名-ReadFile"><span class="nav-number">3.</span> <span class="nav-text">3. 题目名 ReadFile</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-题目名：My-Note"><span class="nav-number">4.</span> <span class="nav-text">4. 题目名：My Note</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-题目名称-XmeO"><span class="nav-number">5.</span> <span class="nav-text">5. 题目名称 XmeO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#7-题目名称-regex-format"><span class="nav-number">6.</span> <span class="nav-text">7. 题目名称 regex format</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#8-题目名称：Disk"><span class="nav-number">7.</span> <span class="nav-text">8. 题目名称：Disk</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#9-题目名称：Common-Crypto"><span class="nav-number">8.</span> <span class="nav-text">9. 题目名称：Common Crypto</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#11-题目名称：welcome"><span class="nav-number">9.</span> <span class="nav-text">11. 题目名称：welcome</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名-Code-check"><span class="nav-number">1.</span> <span class="nav-text">题目名 Code check</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名-Flow"><span class="nav-number">2.</span> <span class="nav-text">题目名 Flow</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名-ReadFile"><span class="nav-number">3.</span> <span class="nav-text">题目名 ReadFile</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名：My-Note"><span class="nav-number">4.</span> <span class="nav-text">题目名：My Note</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称-XmeO"><span class="nav-number">5.</span> <span class="nav-text">题目名称 XmeO</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称-highwayhash64"><span class="nav-number">6.</span> <span class="nav-text">题目名称 highwayhash64</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称-regex-format"><span class="nav-number">7.</span> <span class="nav-text">题目名称 regex format</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称：Disk"><span class="nav-number">8.</span> <span class="nav-text">题目名称：Disk</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称：Common-Crypto"><span class="nav-number">9.</span> <span class="nav-text">题目名称：Common Crypto</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称-replace"><span class="nav-number">10.</span> <span class="nav-text">题目名称 replace</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#题目名称：welcome"><span class="nav-number">11.</span> <span class="nav-text">题目名称：welcome</span></a></li></ol></div>
             
 
           </div>
