@@ -125,7 +125,7 @@
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image22.png">
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image23.png">
 <meta property="og:image" content="https://waterdrop-team.github.io/images/pics/media/image24.jpeg">
-<meta property="og:updated_time" content="2018-11-19T15:06:58.682Z">
+<meta property="og:updated_time" content="2018-11-19T15:07:50.641Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="湖湘杯 2018 Writeup --Wa1erDrop">
 <meta name="twitter:description" content="湖湘杯 2018 Writeup">
@@ -389,12 +389,12 @@
 <p>highwayhash64 在 GitHub 上搜了一下<br><a href="https://github.com/google/highwayhash" target="_blank" rel="noopener">[https://github.com/google/highwayhash]{.underline}</a></p>
 <p>找到了源码，再仔细对照算法，只有一个函数魔改了，其他都一样。</p>
 <p>加密过程是：先对输入的长度进行校验，然后对数字部分进行校验。</p>
-<p><img src="/images/pics/media/image12.png" alt="">{width=”5.768055555555556in”<br>height=”2.66875in”}</p>
+<p><img src="/images/pics/media/image12.png" alt=""></p>
 <p>对着改成了文件的模样，先爆破了 digit 的长度是 10， 然后就可以开始爆破了。</p>
 <p><img src="/images/pics/media/image13.png" alt=""></p>
 <p>用的是 GitHub 上自带的 test 函数，稍微改了改</p>
 <p>爆破的速度还是很快的，队员 3 个人各跑了一下确定了区间，最后得解。</p>
-<p><img src="/images/pics/media/image14.png" alt="">{width=”3.5308081802274716in”<br>height=”0.7707370953630797in”}</p>
+<p><img src="/images/pics/media/image14.png" alt=""></p>
 <h2 id="题目名称-regex-format"><a href="#题目名称-regex-format" class="headerlink" title="题目名称 regex format"></a>题目名称 regex format</h2><p>只要正确理解了：和、$那段解析判断就非常简单了</p>
 <p>简单模拟了一个正则表达式 : 和、$ 中的内容是可以出现的内容</p>
 <p>例如 :a$+ 就可以出现 1000 次 a 这样</p>
